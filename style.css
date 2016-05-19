@@ -49,5 +49,7 @@ body {
     background-color:white;
     border-style: inset;
     border-radius:25px;
-    
+    width: 300px;
+    height:45px;
+    margin-top:200px;
 }
