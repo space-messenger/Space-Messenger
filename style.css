@@ -44,3 +44,10 @@ body {
 	background-position: bottom center;
 
 }
+
+#providedtext{
+    background-color:white;
+    border-style: inset;
+    border-radius:25px;
+    
+}
