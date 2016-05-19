@@ -55,6 +55,9 @@ body {
     margin-left:520px;
 }
 
-#submitmessage{
-    
+#centerrectangle{
+background: linear-gradient(to right, blue , purple);
+margin-left:530px;
+width:600;
+length:780px;
 }
