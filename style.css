@@ -56,8 +56,13 @@ body {
 }
 
 #centerrectangle{
-background: linear-gradient(to right, blue , purple);
+background: linear-gradient(to right, #2196F3 , purple);
 margin-left:530px;
 width:600px;
 height:780px;
+}
+
+#submitmessage{
+    border-radius: 6px;
+    background-image:;
 }
