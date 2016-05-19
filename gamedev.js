@@ -7,7 +7,7 @@ $(function() {
    'Simply put, the second line',
    'impressed by the third line.'
   ];
-  $("#thisbutton").click(function () {
+  $("#submitmessage").click(function () {
      $("#thetext").text(copyText[1]);
   });
 
