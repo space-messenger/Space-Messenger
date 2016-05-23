@@ -57,8 +57,9 @@ body {
 
 #centerrectangle{
 /*background: linear-gradient(to right, blue , purple);*/
-background-color: #2196F3
+background-color: #2196F3;
 margin-left:530px;
+margin-top:170px;
 width:600px;
 height:780px;
 border-radius:6px;
