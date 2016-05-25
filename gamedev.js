@@ -2,13 +2,13 @@ $( document ).ready(function() {
 
 //Your jquery + js goes here
 var msg = new Array(
-	"Practicing with your typing can greatly help your overall computer skills.",
-	"A new computer is sold in the US every hour!",
-	"When do birds migrate from North to South?",
-	"Perplexing phrases, like this one, are tougher to type.",
-	"If you can correctly, and quickly, type this perplexing sentence, you are one superb typist!",
-	"You are one superb typist if you can correctly, and quickly, type this long phrase.",
-	"I believe you're a good typist, so I believe you will correctly copy this statement!",
+	"Please help!! These weird creatures are trying to ATTACK us!",
+	"Could you plz help us fight these ppl?",
+	"OMG THESE CREATURES ARE WEIRD AND EVIL! THEY WANT TO DOMINATE EARTH!",
+	"We don't know where they're from, but I heard they're really strong. They can fly really fast and take over Earth in no time. So send help NOW, please!",
+	"We need weapons to fight these guys really fast. Lasers, tasers, guns, swords, and any other powerful weapons. Oh, and lightsabers",
+	"COME TO EARTH, QUICK. BE ARMED AND BE PREPARED FOR WEIRD WHALE ALIENS THAT'LL TRY TO STEAL STUFF.",
+	"Who's the leader of Mars? Tell them to contact us down at Earth and",
 	"Because this is not a fairly simple phrase, could you swiftly, and precisely, copy it?",
 	"Computers are the medium of the future.",
 	"Can you type this phrase rather quickly?",
@@ -36,7 +36,7 @@ function beginIt() {
 }
 
 function cheat() {
-	document.getElementById("displaytext").innerHTML = "You can not change that!";
+	document.getElementById("displaytext").innerHTML = "Hey! Don't touch that!";
 	document.getElementById("typed").focus();
 }
 
