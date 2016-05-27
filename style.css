@@ -69,9 +69,18 @@ border-radius:6px;
 #submitmessage{
     border-radius: 6px;
     background-color:blue;
+    width:100px;
+    height:80px;
 }
 
 .centerform{
     margin: auto;
     position:absolute;
+}
+
+#playgame{
+ border-radius: 6px;
+ background-color:blue;
+    width:100px;
+    height:80px;
 }
