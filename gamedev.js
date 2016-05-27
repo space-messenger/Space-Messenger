@@ -8,9 +8,9 @@ var msg = new Array(
 	"We don't know where they're from, but I heard they're really strong. They can fly really fast and take over Earth in no time. So send help NOW, please!",
 	"We need weapons to fight these guys really fast. Lasers, tasers, guns, swords, and any other powerful weapons. Oh, and lightsabers",
 	"COME TO EARTH, QUICK. BE ARMED AND BE PREPARED FOR WEIRD WHALE ALIENS THAT'LL TRY TO STEAL STUFF.",
-	"Who's the leader of Mars? Tell them to contact us down at Earth and",
-	"Because this is not a fairly simple phrase, could you swiftly, and precisely, copy it?",
-	"Computers are the medium of the future.",
+	"Who's the leader of Mars? Tell them to contact us down at Earth and keep in touch. Something's very wrong - and it's bad!!",
+	"Do you know what those creatures are? They look like whales, but they're not. THERE ARE SPACE WHALES COMING AFTER US! ",
+	"Have you got your weapons yet?",
 	"Can you type this phrase rather quickly?",
 	"Who is the President of the US?",
 	"I believe that you can type well!");
