@@ -58,11 +58,13 @@ body {
 #centerrectangle{
 /*background: linear-gradient(to right, blue , purple);*/
 background-color: #2196F3;
-margin-left:410px;
-margin-top:170px;
 width:600px;
 height:780px;
 border-radius:6px;
+position: absolute;
+margin: -100px 0 0 -200px;
+top: 50%;
+left: 50%;
 
 }
 
