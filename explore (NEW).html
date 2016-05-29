@@ -1,6 +1,30 @@
-$( document ).ready(function() {
+<!DOCTYPE html>
+<html>
+<head>
+<title>Space Messenger</title>
 
-//Your jquery + js goes here
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="gamedev.js" language="javascript"></script> 
+<script type="text/javascript" src="jquery-1.4.2.js" language="javascript"></script> 
+
+</head>
+
+<body id="exploreBody">
+		<div id ="centerrectangle" align="center"> 
+			<div id="providedtext" align="center" onclick="cheat()">Attention everyone! we have a situation here.</div> 
+			<br>
+
+			<p id="displaytext">Clock is ticking...</p>
+			<!--<form class="centerform"> -->
+				<textarea rows="10" cols="100" id="typed"></textarea>			
+				<button id="startGame" onClick="beginIt()" > Ready to type </button>
+				<button id="sendbutt" onClick="stopIt()" disabled=""> Send Now! </button>
+			<!--</form>-->
+			<br> 
+		</div> 
+<!-->
+<script>
+
 var msg = new Array(
 	"Please help!! These weird creatures are trying to ATTACK us!",
 	"Could you plz help us fight these ppl?",
@@ -36,7 +60,7 @@ function beginIt() {
 }
 
 function cheat() {
-	document.getElementById("displaytext").innerHTML = "Hey! Don't touch that!";
+	document.getElementById("displaytext").innerHTML = "You can not change that!";
 	document.getElementById("typed").focus();
 }
 
@@ -69,10 +93,6 @@ function stopIt() {
 }
 
 </script>
-
-
+-->
 </body>
 </html>
-
-});
-});

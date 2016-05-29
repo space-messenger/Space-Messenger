@@ -1,10 +1,9 @@
 body {
 
 	background-image: url("http://hdwallpaperia.com/wp-content/uploads/2013/11/Game-Backgrounds-Wallpaper.jpg");
-    background-size: cover;
-    background-position: center center;
-	font-family: monospace;
-
+     background-size: cover;
+     background-position: center center;
+	font-family: monospace;    
 }
 
 /*Stuff below governs the start screen*/
@@ -21,7 +20,7 @@ body {
     text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
 }
 
-.button {
+.button {    
 	border: 5px solid #383838;
     color: #383838;
     padding: 20px 50px;
@@ -29,6 +28,14 @@ body {
     text-decoration: none;
     background-color: #abc;
     box-shadow: 15px 15px 80px #555;
+    
+    /*
+    position: absolute; 
+    left: 20%; right: 20%; bottom: 5%;
+    margin-top: 15px;
+    padding: 20px 50px;
+    font-size: 5em;
+    */
 }
   a.button:hover {
     background-color: #383838;
@@ -41,7 +48,7 @@ body {
 
 #exploreBody {
 	background-image: url("img/gameBG.jpg");
-	background-position: bottom center;
+	background-position: top center;
 
 }
 
@@ -49,22 +56,33 @@ body {
     background-color:white;
     border-style: inset;
     border-radius:25px;
-    width: 300px;
-    height:45px;
-    margin-top:200px;
-    margin-left:520px;
+    width: 600px;
+    height:450px;    
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: left;
 }
 
 #centerrectangle{
-/*background: linear-gradient(to right, blue , purple);*/
+/*background: linear-gradient(to right, blue , purple);
 background-color: #2196F3;
-width:600px;
-height:780px;
-border-radius:6px;
-position: absolute;
-margin: -100px 0 0 -200px;
-top: 50%;
-left: 50%;
+margin-left:auto;
+margin-top:auto;
+width:800px;
+border-radius:6px;*/
+
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 800px;
+  height: 800px;
+  background-color: #2196F3;
+  border-radius: 6px;
 
 }
 
@@ -76,4 +94,9 @@ left: 50%;
 .centerform{
     margin: auto;
     position:absolute;
+}
+
+.resizedTextbox {
+    width: 100px; height: 20px;
+    font-size: 20px;
 }
