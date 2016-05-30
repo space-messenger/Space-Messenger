@@ -11,8 +11,8 @@ var msg = new Array(
 	"Do you know what those creatures are? They look like whales, but they're not. THERE ARE SPACE WHALES COMING AFTER US! ",
 	"Have you got your weapons yet?",
 	"Can you type this phrase rather quickly?",
-	"Who is the President of the US?",
-	"I believe that you can type well!");
+	"We think you guys can help us defeat the ",
+	"Please help us defeat these vile space things!");
 
 
 
@@ -59,7 +59,7 @@ function stopIt() {
 		+ totalTime + " seconds, a speed of about " + spd + " letters per minute!";
 	}
 	else {		
-		document.getElementById("displaytext").innerHTML = "You made an error, but typed at a speed of "; + spd + " letters per minute.";
+		document.getElementById("displaytext").innerHTML = "You made an error, but typed at a speed of " + spd + " letters per minute.";
 	}
 
 	document.getElementById("startGame").disabled = false;
