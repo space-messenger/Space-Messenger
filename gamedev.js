@@ -10,7 +10,7 @@ var msg = new Array(
 	"Who's the leader of Mars? Tell them to contact us down at Earth and keep in touch. Something's very wrong - and it's bad!!",
 	"Do you know what those creatures are? They look like whales, but they're not. THERE ARE SPACE WHALES COMING AFTER US! ",
 	"Have you got your weapons yet?",
-	"Can you type this phrase rather quickly?",
+	"Quick! There are creatures trying to attack us on Earth! Please help ASAP.",
 	"We think you guys can help us defeat the ",
 	"Please help us defeat these vile space things!");
 
