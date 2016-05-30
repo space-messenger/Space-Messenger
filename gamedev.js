@@ -59,7 +59,7 @@ function stopIt() {
 		+ totalTime + " seconds, a speed of about " + spd + " letters per minute!";
 	}
 	else {		
-		document.getElementById("displaytext").innerHTML = "You made an error, but typed at a speed of " + spd + " letters per minute.";
+		document.getElementById("displaytext").innerHTML = spd; //"You made an error, but typed at a speed of " + spd + " letters per minute.";
 	}
 
 	document.getElementById("startGame").disabled = false;
