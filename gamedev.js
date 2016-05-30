@@ -35,7 +35,7 @@ function beginIt() {
 }
 
 function cheat() {
-	document.getElementById("displaytext").innerHTML = "You can not change that!";
+	document.getElementById("displaytext").innerHTML = "Hey! Don't touch that!";
 	document.getElementById("typed").focus();
 }
 
@@ -56,10 +56,10 @@ function stopIt() {
 	{
 		document.getElementById("displaytext").innerHTML = 
 		"You typed a " + word + " word sentence in "
-		+ totalTime + " seconds, a speed of about " + spd + " words per minute!";
+		+ totalTime + " seconds, a speed of about " + spd + " letters per minute!";
 	}
 	else {		
-		document.getElementById("displaytext").innerHTML = "You made an error, but typed at a speed of "; + spd + " words per minute.";
+		document.getElementById("displaytext").innerHTML = "You made an error, but typed at a speed of "; + spd + " letters per minute.";
 	}
 
 	document.getElementById("startGame").disabled = false;
