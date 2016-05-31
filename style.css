@@ -21,11 +21,11 @@ body {
 
 .button {    
 	border: 5px solid #383838;
-    color: #9F00C5;
+    color: #383838;
     padding: 20px 50px;
     font-size: 5em;
     text-decoration: none;
-    background-color: #abc;
+    background-color: #9F00C5;
     box-shadow: 15px 15px 80px #555;
     
     /*
