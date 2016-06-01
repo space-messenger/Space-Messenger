@@ -1,4 +1,4 @@
-$(document).ready(function() {
+// $(document).ready(function() {
 
 var msg = new Array(
 	"Please help!! These weird creatures are trying to ATTACK us!",
@@ -16,7 +16,8 @@ var msg = new Array(
 
 
 
-function beginIt() {
+function beginIt() {	
+
 	randNum = Math.floor((Math.random() * 10)) % 12;
 	msgType = msg[randNum];
 	day = new Date();
@@ -59,11 +60,11 @@ function stopIt() {
 		+ totalTime + " seconds, a speed of about " + spd + " letters per minute!";
 	}
 	else {		
-		document.getElementById("displaytext").innerHTML = spd; //"You made an error, but typed at a speed of " + spd + " letters per minute.";
+		document.getElementById("displaytext").innerHTML = "You made an error, but typed at a speed of " + spd + " letters per minute.";
 	}
 
 	document.getElementById("startGame").disabled = false;
 	document.getElementById("sendbutt").disabled = true;
 	
 }
-});
+//});
