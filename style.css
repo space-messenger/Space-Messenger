@@ -99,3 +99,11 @@ border-radius:6px;*/
     width: 100px; height: 20px;
     font-size: 20px;
 }
+
+#startGame{
+  width:90px;
+  height:25px;
+  background-color: #0000CC;
+  font-family: monospace;
+
+}
