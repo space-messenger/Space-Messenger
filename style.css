@@ -87,9 +87,11 @@ border-radius:6px;*/
 
 #submitmessage{
     border-radius: 6px;
-    background-color:blue;
+    background-color:white;
     width:90px;
   height:25px;
+  border:none;
+
 }
 
 .centerform{
