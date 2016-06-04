@@ -88,6 +88,8 @@ border-radius:6px;*/
 #submitmessage{
     border-radius: 6px;
     background-color:blue;
+    width:90px;
+  height:25px;
 }
 
 .centerform{
@@ -101,8 +103,9 @@ border-radius:6px;*/
 }
 
 #startGame{
-  width:90px;
+      border-radius: 6px;
+width:90px;
   height:25px;
-  background-color: #0000CC;
+  background-color: white;
 border:none;
 }
