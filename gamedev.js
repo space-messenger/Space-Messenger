@@ -46,7 +46,7 @@ function beginIt() {
 
 	//disable "ready to Type" button and enable "send Now" button
 	document.getElementById("startGame").disabled = true;
-	document.getElementById("sendbutt").disabled = false;
+	document.getElementById("submitmessage").disabled = false;
 
 }
 
@@ -93,7 +93,7 @@ function stopIt() {
 
 	//after user send message, we should enable "ready to Type" button again and disable "Send Now" botton
 	document.getElementById("startGame").disabled = false;
-	document.getElementById("sendbutt").disabled = true;
+	document.getElementById("submitmessage").disabled = true;
 	
 }
 //});
