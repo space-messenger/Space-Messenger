@@ -113,5 +113,6 @@ border:none;
 }
 
 #displaytext{
-  background-color: white;
+  color: white;
+  font-size:17px;
 }
