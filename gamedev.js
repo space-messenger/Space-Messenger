@@ -84,11 +84,11 @@ function stopIt() {
 	{
 		//display the number of letters user typed, duration time and speed per minute
 		document.getElementById("displaytext").innerHTML = 
-		"You typed a " + word + " word sentence in "
+		"Message sent! You typed a " + word + " letter sentence in "
 		+ totalTime + " seconds, a speed of about " + spd + " letters per minute!";
 	}
 	else {		//if user did not enter meesage correctly, diaply error message and speed per minute
-		document.getElementById("displaytext").innerHTML = "You made an error, but typed at a speed of " + spd + " letters per minute.";
+		document.getElementById("displaytext").innerHTML = "Oh no! You made an error, but hopefully people will understand your text. You typed at a speed of " + spd + " letters per minute.";
 	}
 
 	//after user send message, we should enable "ready to Type" button again and disable "Send Now" botton
