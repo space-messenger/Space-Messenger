@@ -80,7 +80,7 @@ border-radius:6px;*/
   left: 0;
   width: 800px;
   height: 800px;
-  background-color: #2196F3;
+  background-image: url('img/bigdiv-background.png');
   border-radius: 6px;
 
 }
