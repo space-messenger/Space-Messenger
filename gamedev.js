@@ -7,7 +7,7 @@ var msg = new Array(
 	"THERE ARE CREATURES THAT ARE WEIRD AND EVIL - THAT WANT TO DOMINATE EARTH!",
 	"We don't know where they're actually from, but I'm guessing they're really strong. They can fly really fast and I bet they take over Earth in no time. Send help.",
 	"We need weapons to fight these guys. Sorry, no one here knows what they really are other than the fact they look like galactic whales, so we can't give you much info that'll help. :T",
-	"COME TO EARTH, QUICK! BE PREPARED FOR WEIRD WHALE ALIENS THAT'LL TRY TO STEAL STUFF.",
+	"COME TO EARTH, QUICK! BE PREPARED FOR WEIRD SPACE WHALES THAT'LL TRY TO STEAL STUFF.",
 	"Tell the people on Mars to contact us down at Earth and keep in touch. Something's wrong here...",
 	"Do you know what those creatures are? They look like whales, but they're not. Anyway, THERE ARE SPACE WHALES COMING AFTER US! ",
 	"Everyone ready? (Does anyone have lightsabers?)",
