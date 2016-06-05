@@ -2,17 +2,17 @@
 
 //JavaScript arrays are used to store multiple values in a single variable. Arrays are list-like objects.
 var msg = new Array(
-	"Please help!! These weird creatures are trying to ATTACK us!",
-	"Could you plz help us fight these ppl?",
-	"OMG THESE CREATURES ARE WEIRD AND EVIL! THEY WANT TO DOMINATE EARTH!",
-	"We don't know where they're from, but I heard they're really strong. They can fly really fast and take over Earth in no time. So send help NOW, please!",
-	"We need weapons to fight these guys really fast. Lasers, tasers, guns, swords, and any other powerful weapons. Oh, and lightsabers",
-	"COME TO EARTH, QUICK. BE ARMED AND BE PREPARED FOR WEIRD WHALE ALIENS THAT'LL TRY TO STEAL STUFF.",
-	"Who's the leader of Mars? Tell them to contact us down at Earth and keep in touch. Something's very wrong - and it's bad!!",
-	"Do you know what those creatures are? They look like whales, but they're not. THERE ARE SPACE WHALES COMING AFTER US! ",
-	"Have you got your weapons yet?",
+	"Please help!! These weird creatures are trying to attack us!!",
+	"Could you help us fight these weird things?",
+	"THERE ARE CREATURES THAT ARE WEIRD AND EVIL - THAT WANT TO DOMINATE EARTH!",
+	"We don't know where they're actually from, but I'm guessing they're really strong. They can fly really fast and I bet they take over Earth in no time. Send help.",
+	"We need weapons to fight these guys. Sorry, no one here knows what they really are other than the fact they look like galactic whales, so we can't give you much info that'll help. :T",
+	"COME TO EARTH, QUICK! BE PREPARED FOR WEIRD WHALE ALIENS THAT'LL TRY TO STEAL STUFF.",
+	"Tell the people on Mars to contact us down at Earth and keep in touch. Something's wrong here...",
+	"Do you know what those creatures are? They look like whales, but they're not. Anyway, THERE ARE SPACE WHALES COMING AFTER US! ",
+	"Everyone ready? (Does anyone have lightsabers?)",
 	"Quick! There are creatures trying to attack us on Earth! Please help ASAP.",
-	"We think you guys can help us defeat the ",
+	"Can you guys help us?",
 	"Please help us defeat these vile space things!");
 
 
