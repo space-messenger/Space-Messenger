@@ -36,7 +36,7 @@ function beginIt() {
 
 	//now, display one of the strings in array in div on the top
 	document.getElementById("providedtext").innerHTML = msgType;
-	document.getElementById("displaytext").innerHTML = "You can do it";
+	document.getElementById("displaytext").innerHTML = "Help save Earth by sending text messages!";
 
 	//for user to type in the textarea box, first move cursor to textarea box by calling focus and secondly, select letters in the textarea box so that it will erase when user types the first letter.
 	document.getElementById("typed").focus();
