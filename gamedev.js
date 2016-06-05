@@ -41,10 +41,10 @@ function beginIt() {
 	//for user to type in the textarea box, first move cursor to textarea box by calling focus and secondly, select letters in the textarea box so that it will erase when user types the first letter.
 	document.getElementById("typed").focus();
 	document.getElementById("typed").select();
-	//erase letter already in the textarea box to retyoe new message
+	//erase letter already in the textarea box to retype new message
 	document.getElementById("typed").value = "";
 
-	//disable "ready to Type" button and enable "send Now" button
+	//disable "ready to Type" button and enable "send" button
 	document.getElementById("startGame").disabled = true;
 	document.getElementById("submitmessage").disabled = false;
 
@@ -56,7 +56,7 @@ function cheat() {
 	document.getElementById("typed").focus();
 }
 
-//when user clicks "Send Now" button
+//when user clicks "Send" button
 function stopIt() {
 	//A date consists of a year, a month, a day, an hour, a minute, a second, and milliseconds.
 	//Using new Date(), creates a new date object with the current date and time:
@@ -66,7 +66,7 @@ function stopIt() {
 
 	//startType is the time in milliseconds when user clicks "ready to type"button and endType is the time in milliseconds when user clicks "Send Now" button.
 	//endType mius startType is the duration time user took to type.
-	//since time unit is milliseconds, we need to divide by 1000 to convert to seconds.
+	//since time unit is milliseconds, so we need to divide by 1000 to convert to seconds.
 	totalTime = ((endType - startType) / 1000);
 
 	//sentence is the message user typed in the textarea box
