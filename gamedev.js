@@ -35,8 +35,8 @@ function beginIt() {
 
 
 	//now, display one of the strings in array in div on the top
-	document.getElementById("providedtext").innerHTML = msgType;
-	document.getElementById("displaytext").innerHTML = "Help save Earth by sending text messages!";
+	$("#providedtext").html(msgType);
+	$("#displaytext").html("Help save Earth by sending text messages!");
 
 	//for user to type in the textarea box, first move cursor to textarea box by calling focus and secondly, select letters in the textarea box so that it will erase when user types the first letter.
 	document.getElementById("typed").focus();
@@ -52,7 +52,7 @@ function beginIt() {
 
 function cheat() {
 	//if user click mouse in the div box that shows sentence on the top, it shows warning message and move cursor to textarea box below
-	document.getElementById("displaytext").innerHTML = "Hey! Don't touch that!";
+	$("#displaytext").html("Hey! Don't touch that!");
 	document.getElementById("typed").focus();
 }
 
@@ -83,12 +83,12 @@ function stopIt() {
 	if (document.getElementById("typed").value == document.getElementById("providedtext").innerHTML) 
 	{
 		//display the number of letters user typed, duration time and speed per minute
-		document.getElementById("displaytext").innerHTML = 
-		"Message sent! You typed a " + word + " letter sentence in "
-		+ totalTime + " seconds, a speed of about " + spd + " letters per minute!";
+		$("#displaytext").html( "Message sent! You typed a " + word + " letter sentence in "
+		+ totalTime + " seconds, a speed of about " + spd + " letters per minute!");
 	}
-	else {		//if user did not enter meesage correctly, diaply error message and speed per minute
-		document.getElementById("displaytext").innerHTML = "Oh no! You made an error, but hopefully people will understand your text. You typed at a speed of " + spd + " letters per minute.";
+	else {	
+		//if user did not enter meesage correctly, diaply error message and speed per minute
+		$("#displaytext").html("Oh no! You made an error, but hopefully people will understand your text. You typed at a speed of " + spd + " letters per minute.");
 	}
 
 	//after user send message, we should enable "ready to Type" button again and disable "Send Now" botton
