@@ -88,7 +88,7 @@ function stopIt() {
 	}
 	else {	
 		//if user did not enter meesage correctly, diaply error message and speed per minute
-		$("#displaytext").html("Oh no! You made an error, but hopefully people will understand your text. You typed at a speed of " + spd + " letters per minute. Press "Ready to type" to start a new game.");
+		$("#displaytext").html("Oh no! You made an error, but hopefully people will understand your text. You typed at a speed of " + spd + " letters per minute.");
 	}
 
 	//after user send message, we should enable "ready to Type" button again and disable "Send Now" botton
