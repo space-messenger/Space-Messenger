@@ -1,16 +1,15 @@
-// $(document).ready(function() {
 
 //JavaScript arrays are used to store multiple values in a single variable. Arrays are list-like objects.
 var msg = new Array(
 	"Please help!! These weird creatures are trying to attack us!!",
 	"Could you help us fight these weird things?",
-	"THERE ARE CREATURES THAT ARE WEIRD AND EVIL - THAT WANT TO DOMINATE EARTH!",
+	"THERE ARE WEIRD AND EVIL CREATURES THAT WANT TO DOMINATE EARTH! What do we do? Reply quick.",
 	"We don't know where they're actually from, but I'm guessing they're really strong. They can fly really fast and I bet they take over Earth in no time. Send help.",
 	"We need weapons to fight these guys. Sorry, no one here knows what they really are other than the fact they look like galactic whales, so we can't give you much info that'll help. :T",
 	"COME TO EARTH, QUICK! BE PREPARED FOR WEIRD SPACE WHALES THAT'LL TRY TO STEAL STUFF.",
 	"Tell the people on Mars to contact us down at Earth and keep in touch. Something's wrong here...",
 	"Do you know what those creatures are? They look like whales, but they're not. Anyway, THERE ARE SPACE WHALES COMING AFTER US! ",
-	"Everyone ready? (Does anyone have lightsabers?)",
+	"Everyone ready? (Does anyone have lightsabers? Is that even a thing where you people live?)",
 	"Quick! There are creatures trying to attack us on Earth! Please help ASAP.",
 	"Can you guys help us?",
 	"Please help us defeat these vile space things!");
@@ -74,7 +73,7 @@ function stopIt() {
 	//count the number of letters in user sentence
 	word = sentence.length;
 
-	//to show user's typing speed in minutes, speed is calculated from the number of letters user typed devided by duration time user took and multiply 60 to convert to minute.
+	//to show user's typing speed in minutes, speed is calculated from the number of letters user typed divided by duration time user took and multiply 60 to convert to minute.
 	spd = Math.round((word/totalTime) * 60);
 
 
