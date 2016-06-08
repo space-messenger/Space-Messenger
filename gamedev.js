@@ -18,7 +18,7 @@ var msg = new Array(
 //when "ready to Type" button is clicked, it calls beginIt() function
 function beginIt() {	
 
-	//Math.random() returns a random number between 0 (inclusive) and 1 (exclusive).
+	//Math.random() returns a random number between 0 (included) and 1 (not included).
 	//The floor() method rounds a number DOWNWARDS to the nearest integer, and returns the result.
 	//Modulus (%) operator returns only the remainder. 
 	//below variable randNum will be random integer number between 0 and 11 and we need this number to pick one of strings in array defined above.
@@ -43,7 +43,7 @@ function beginIt() {
 	//erase letter already in the textarea box to retype new message
 	document.getElementById("typed").value = "";
 
-	//disable "ready to Type" button and enable "send" button
+	//disables "ready to Type" button and enable "send" button
 	document.getElementById("startGame").disabled = true;
 	document.getElementById("submitmessage").disabled = false;
 
@@ -73,7 +73,7 @@ function stopIt() {
 	//count the number of letters in user sentence
 	word = sentence.length;
 
-	//to show user's typing speed in minutes, speed is calculated from the number of letters user typed divided by duration time user took and multiply 60 to convert to minute.
+	//to show user's typing speed in minutes, speed is calculated from the number of letters user typed divided by duration time user took and multiply 60 to convert to minutes.
 	spd = Math.round((word/totalTime) * 60);
 
 
@@ -90,7 +90,7 @@ function stopIt() {
 		$("#displaytext").html("Oh no! You made an error, but hopefully people will understand your text. You typed at a speed of " + spd + " letters per minute.");
 	}
 
-	//after user send message, we should enable "ready to Type" button again and disable "Send Now" botton
+	//after user send message, we should enable "ready to Type" button again and disable "Send" botton
 	document.getElementById("startGame").disabled = false;
 	document.getElementById("submitmessage").disabled = true;
 	
